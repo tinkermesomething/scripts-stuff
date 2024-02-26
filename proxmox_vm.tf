@@ -16,7 +16,7 @@ resource "proxmox_vm_qemu" "vm" {
       scsi0 {
         disk {
           storage  = "DATA"
-          size     = 30
+          size     = 32
           format   = "raw"
           backup   = false
           iothread = true
